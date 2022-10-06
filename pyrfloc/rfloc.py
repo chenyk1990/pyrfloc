@@ -152,12 +152,7 @@ class RFloc3D(object):
         A substitute of load_traveltime
         '''
         import pyekfmm as fmm
-        
-#         vel=np.swapaxes(vp,0,2).reshape([101*101*101,1],order='F'); #transpose to [xyz]
-        # t=fmm.eikonal_surf(vel,xyz=shots[0:4],ax=[0,0.9413,101],ay=[0,0.8031,101],az=[0,0.25,101],order=1) #xy-nevets 
-        # fmmtime=t.reshape(101,101,nevent,order='F'); #[x,y]
-        # memory issue stopped
-        
+
         vp=self.vp; #zxy
         vp=np.swapaxes(vp,0,2).reshape([self.nx*self.ny*self.nz,1],order='F'); #transpose to [xyz]
         
