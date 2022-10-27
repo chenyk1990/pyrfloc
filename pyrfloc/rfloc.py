@@ -152,7 +152,6 @@ class RFloc3D(object):
         A substitute of load_traveltime
         '''
         import pyekfmm as fmm
-
         vp=self.vp; #zxy
         vp=np.swapaxes(vp,0,2).reshape([self.nx*self.ny*self.nz,1],order='F'); #transpose to [xyz]
         
