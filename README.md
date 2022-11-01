@@ -49,12 +49,6 @@ or using Pypi
     The "demo" directory contains all runable scripts to demonstrate different applications of pyrfloc. 
 
 -----------
-## Gallery
-The gallery figures of the pyrfloc package can be found at
-    https://github.com/chenyk1990/gallery/tree/main/pyrfloc
-Each figure in the gallery directory corresponds to a DEMO script in the "demo" directory with the exactly the same file name.
-
------------
 ## Dependence Packages
 * scipy 
 * numpy 
@@ -72,5 +66,10 @@ Each figure in the gallery directory corresponds to a DEMO script in the "demo" 
     chenyk2016@gmail.com
 
 -----------
+## Gallery
+The gallery figures of the pyrfloc package can be found at
+    https://github.com/chenyk1990/gallery/tree/main/pyrfloc
+Each figure in the gallery directory corresponds to a DEMO script in the "demo" directory with the exactly the same file name.
 
-
+The following figure shows the location result of the Texas M4.9 Mentone earthquake (texnet2020galz). Catalog location: catalog (Red): -104.05 31.7 7.1; RFloc3D result (Green): -104.02423355 31.68684031 7.83275 
+<img src='https://github.com/chenyk1990/gallery/blob/main/pyrfloc/first_texnet2020galz.png' alt='Slicing' width=960/>
