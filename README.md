@@ -25,7 +25,7 @@ BibTeX:
 	  year={2022}
 	}
 
-	@Article{rfloc3d,
+	@Article{rfloc3dps,
 	  author={Yangkang Chen and Alexandros Savvaidis and Sergey Fomel and Omar M. Saad and Yunfeng Chen},
 	  title = {RFloc3{D}: a machine learning method for 3{D} microseismic source location using P- and S-wave arrivals},
 	  journal={IEEE Transactions on Geoscience and Remote Sensing},
