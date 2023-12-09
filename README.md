@@ -9,6 +9,8 @@
 
 ## Reference
     Chen, Y., Saad, O. M., Savvaidis, A., Chen, Y., & Fomel, S. (2022). 3D Microseismic Monitoring Using Machine Learning. Journal of Geophysical Research: Solid Earth, 127(3), e2021JB023842.
+
+    Chen, Y., A. Savvaidis, Fomel, S., Saad, O.M. and Y.F. Chen, 2023. RFloc3D: A Machine- Learning Method for 3-D Microseismic Source Location Using P-and S-Wave Arrivals: IEEE Transactions on Geoscience and Remote Sensing, 61, 5901310.
     
 BibTeX:
 
@@ -21,6 +23,18 @@ BibTeX:
 	  issue={3},
 	  pages={e2021JB023842},
 	  year={2022}
+	}
+
+	@Article{rfloc3d,
+	  author={Yangkang Chen and Alexandros Savvaidis and Sergey Fomel and Omar M. Saad and Yunfeng Chen},
+	  title = {RFloc3{D}: a machine learning method for 3{D} microseismic source location using P- and S-wave arrivals},
+	  journal={IEEE Transactions on Geoscience and Remote Sensing},
+	  year=2023,
+	  volume=61,
+	  issue=1,
+	  number=1,
+	  pages={5901310},
+	  doi={10.1109/TGRS.2023.3236572},
 	}
 
 -----------
